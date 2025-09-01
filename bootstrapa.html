@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jhean Flower Shop</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .hero-section {
+                background-image: url('https://via.placeholder.com/1600x600.png?text=Jhean+Flower+Shop');
+                background-size: cover;
+                background-position: center;
+                color: white;
+                text-align: center;
+                padding: 100px 0;
+            }
+    
+            .flower-card {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+                margin-bottom: 30px;
+            }
+    
+            .footer {
+                background-color: #333;
+                color: white;
+                padding: 20px 0;
+                text-align: center;
+            }
+    
+            .footer a {
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Jhean Flower Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1>Welcome to Jhean Flower Shop</h1>
+            <p>Your one-stop shop for the freshest blooms</p>
+            <a href="#shop" class="btn btn-primary btn-lg">Shop Now</a>
+        </section>
+    
+        <!-- Featured Flowers -->
+        <section class="container mt-5" id="shop">
+            <h2 class="text-center mb-4">Our Best Sellers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card flower-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=Roses" class="card-img-top" alt="Roses">
+                        <div class="card-body">
+                            <h5 class="card-title">Rose Bouquet</h5>
+                            <p class="card-text">A beautiful bouquet of fresh red roses, perfect for any occasion.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flower-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=Lilies" class="card-img-top" alt="Lilies">
+                        <div class="card-body">
+                            <h5 class="card-title">Lily Arrangement</h5>
+                            <p class="card-text">Elegant white lilies to brighten any room with their fragrance.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card flower-card">
+                        <img src="https://via.placeholder.com/300x200.png?text=Sunflowers" class="card-img-top" alt="Sunflowers">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunflower Bouquet</h5>
+                            <p class="card-text">A cheerful bouquet of sunflowers to add a touch of sunshine to your day.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact Form -->
+        <section class="container mt-5" id="contact">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="footer mt-5">
+            <p>&copy; 2024 Jhean Flower Shop. All rights reserved.</p>
+            <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+        </footer>
+    
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    
+</body>
+</html>

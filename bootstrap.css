@@ -1,0 +1,108 @@
+body {
+    background: wheat;
+}
+
+nav .navbar {
+    background-color: wheat;
+}
+
+nav a img {
+    margin-left: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 80px;
+}
+
+li {
+    font-weight: bold;
+}
+
+.hero-section {
+    background-image: url(image/bride-holding-bouquet-600nw-2312007979.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .btn {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+}
+
+/* Product Cards */
+.flower-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.flower-card:hover {
+    transform: scale(1.05);
+}
+
+.flower-card img {
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.flower-card-body {
+    text-align: center;
+}
+
+.flower-card-body h5 {
+    font-size: 1.25rem;
+}
+
+.flower-card-body p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+.footer a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+/* Contact Form */
+.contact-form .form-group label {
+    font-weight: bold;
+}
+
+.contact-form button {
+    background-color: #FF69B4;
+    border-color: #FF69B4;
+}
+
+.jhean {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+.jhean span {
+    color: black;
+}
